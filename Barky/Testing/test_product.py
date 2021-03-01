@@ -48,3 +48,11 @@ class ProductTestCase(unittest.TestCase):
         actual_value = small_red_shoes.transform_name_for_sku()
         #assert
         self.assertEqual(expected_value, actual_value)
+
+    def setUp(self)
+        self.assertEqual = Product()
+        
+    def tearDown(self):
+        print("\tearDown Result:")
+        
+        
