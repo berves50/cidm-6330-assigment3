@@ -31,6 +31,14 @@ class ShoppingCartTestCase(unittest.TestCase):
         cart.remove_product(product)
 
         self.assertDictEqual({}, cart.products)
+        
+        
+    def setUp(self)
+        self.assertDictEqual = ShoppingCart()
+        
+    def tearDown(self):
+        print("\tearDown Result:")
+        
     
 
 
